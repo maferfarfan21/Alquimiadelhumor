@@ -358,20 +358,20 @@
     * ------------------------------------------------------ */
     const ssLightbox = function() {
 
-        // iframe lightbox
-        const iframeLightbox = function() {
+        // video lightbox
+        const videoLightbox = function() {
 
-            const iframeLink = document.querySelector('.s-intro__content-iframe-btn');
-            if (!iframeLink) return;
+            const videoLink = document.querySelector('.s-intro__content-video-btn');
+            if (!videoLink) return;
     
-            iframeLink.addEventListener('click', function(event) {
+            videoLink.addEventListener('click', function(event) {
     
                 const vLink = this.getAttribute('href');
-                const iframe = "<iframe src='" + vLink + "' frameborder='0'></iframe>";
+                const video = "<video src='" + vLink + "' frameborder='0'></video>";
     
                 event.preventDefault();
     
-                const instance = basicLightbox.create(iframe);
+                const instance = basicLightbox.create(video);
                 instance.show()
     
             });
@@ -412,7 +412,7 @@
     
         };
 
-        iframeLightbox();
+        videoLightbox();
         folioLightbox();
 
     }; // ssLightbox

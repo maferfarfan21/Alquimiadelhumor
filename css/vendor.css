@@ -816,7 +816,7 @@ button.swiper-pagination-bullet {
     opacity     : 0;
 }
 
-.basicLightbox__placeholder>iframe:first-child:last-child,
+.basicLightbox__placeholder>video:first-child:last-child,
 .basicLightbox__placeholder>img:first-child:last-child,
 .basicLightbox__placeholder>video:first-child:last-child {
     display    : block;
@@ -830,7 +830,7 @@ button.swiper-pagination-bullet {
     max-height : 95%;
 }
 
-.basicLightbox__placeholder>iframe:first-child:last-child,
+.basicLightbox__placeholder>video:first-child:last-child,
 .basicLightbox__placeholder>video:first-child:last-child {
     pointer-events : auto;
 }
@@ -841,7 +841,7 @@ button.swiper-pagination-bullet {
     height : auto;
 }
 
-.basicLightbox--iframe .basicLightbox__placeholder,
+.basicLightbox--video .basicLightbox__placeholder,
 .basicLightbox--img .basicLightbox__placeholder,
 .basicLightbox--video .basicLightbox__placeholder {
     width          : 100%;
