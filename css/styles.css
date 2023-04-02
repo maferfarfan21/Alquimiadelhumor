@@ -542,7 +542,7 @@ a {
 
 svg,
 img,
-video {
+iframe {
     max-width : 100%;
     height    : auto;
 }
@@ -1856,7 +1856,7 @@ ol,
 dl,
 form,
 img,
-.video-container,
+.iframe-container,
 .ss-custom-select {
     margin-bottom : var(--vspace-1);
 }
@@ -2784,9 +2784,9 @@ img.u-pull-left {
     margin : var(--vspace-0_5) var(--vspace-0_875) var(--vspace-0_5) 0;
 }
 
-/* responsive video container
+/* responsive iframe container
   */
-.video-container {
+.iframe-container {
     --aspect-ratio : 16/9;
     position       : relative;
     height         : 0;
@@ -2794,10 +2794,10 @@ img.u-pull-left {
     padding-bottom : calc(100%/(var(--aspect-ratio)));
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed,
-.video-container video {
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed,
+.iframe-container iframe {
     position : absolute;
     top      : 0;
     left     : 0;
@@ -3387,7 +3387,7 @@ img.u-pull-left {
  * ## intro background
  * -------------------------------------------------------------------- */
 
-.bg-video-wrap {
+.bg-iframe-wrap {
     position: absolute;
     overflow: hidden;
     width: 100%;
@@ -3399,7 +3399,7 @@ img.u-pull-left {
     bottom         : 0;
 }
 
-  video {
+  iframe {
     min-width: 100%;
     min-height: 100vh;
     z-index: 1;

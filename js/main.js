@@ -358,13 +358,13 @@
     * ------------------------------------------------------ */
     const ssLightbox = function() {
 
-        // video lightbox
-        const videoLightbox = function() {
+        // iframe lightbox
+        const iframeLightbox = function() {
 
-            const videoLink = document.querySelector('.s-intro__content-video-btn');
-            if (!videoLink) return;
+            const iframeLink = document.querySelector('.s-intro__content-iframe-btn');
+            if (!iframeLink) return;
     
-            videoLink.addEventListener('click', function(event) {
+            iframeLink.addEventListener('click', function(event) {
     
                 const vLink = this.getAttribute('href');
                 const iframe = "<iframe src='" + vLink + "' frameborder='0'></iframe>";
@@ -412,7 +412,7 @@
     
         };
 
-        videoLightbox();
+        iframeLightbox();
         folioLightbox();
 
     }; // ssLightbox
