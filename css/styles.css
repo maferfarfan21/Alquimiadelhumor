@@ -139,15 +139,15 @@
      */
     --color-black                  : #000000;
     --color-gray-19                : #161616;
-    --color-gray-18                : #2c2c2c;
-    --color-gray-17                : #424241;
-    --color-gray-16                : #585857;
-    --color-gray-15                : #6e6e6d;
-    --color-gray-14                : #848383;
-    --color-gray-13                : #9a9999;
-    --color-gray-12                : #b0afae;
+    --color-gray-18                : #000000;
+    --color-gray-17                : #020202;
+    --color-gray-16                : #e0dfde;
+    --color-gray-15                : #e0dfde;
+    --color-gray-14                : #e0dfde;
+    --color-gray-13                : #e0dfde;
+    --color-gray-12                : #e0dfde;
     --color-gray-11                : #c6c5c4;
-    --color-gray-10                : #dcdbda;
+    --color-gray-10                : #e0dfde;
     --color-gray-9                 : #e0dfde;
     --color-gray-8                 : #e3e2e1;
     --color-gray-7                 : #e7e6e5;
@@ -161,10 +161,10 @@
 
     /* text
      */
-    --color-text                   : var(--color-gray-19);
-    --color-text-dark              : var(--color-black);
-    --color-text-light             : var(--color-gray-14);
-    --color-placeholder            : var(--color-gray-14);
+    --color-text                   : white;
+    --color-text-dark              : white;
+    --color-text-light             : white;
+    --color-placeholder            :white;
 
     /* buttons
      */
@@ -2836,7 +2836,7 @@ img.u-pull-left {
     font-size   : calc(var(--text-size) * 1.1111);
     font-weight : 300;
     line-height : 1.8;
-    color       : var(--color-text-light);
+    color       : white;
 }
 
 .section-header::before {
@@ -2846,7 +2846,7 @@ img.u-pull-left {
     font-size      : 8em;
     letter-spacing : -0.03em;
     line-height    : 1;
-    color          : var(--color-gray-9);
+    color       : white;
     position       : absolute;
     top            : 0;
     left           : var(--gutter);
