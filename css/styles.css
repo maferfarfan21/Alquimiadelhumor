@@ -3287,7 +3287,7 @@ img.u-pull-left {
         top       : 50%;
         transform : translate(4rem, -50%);
     }
-    .s-header__logo {
+     .s-header__logo {
         width: 60%;
         transform : translate(7vw, -50%);
         display: flex;
@@ -3434,7 +3434,7 @@ img.u-pull-left {
     overflow: hidden;
     width: 100%;
 
-    height: 100vh;
+    height: 100%;
     top            : 0;
     
     bottom         : 0;
